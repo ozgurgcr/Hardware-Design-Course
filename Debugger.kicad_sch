@@ -4736,7 +4736,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprints:SW_PTS636_SM43J_SMTR_LFS"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 98.0438 48.8381 0)
 			(effects
 				(font

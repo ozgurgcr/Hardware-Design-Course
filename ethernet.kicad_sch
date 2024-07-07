@@ -6845,7 +6845,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprints:SW_PTS636_SM43J_SMTR_LFS"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 180.3261 46.8577 0)
 			(effects
 				(font
@@ -7083,7 +7083,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 147.2259 152.3269 0)
+		(at 147.3112 166.9429 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7091,7 +7091,7 @@
 		(dnp no)
 		(uuid "49e2cf76-489a-478c-bf61-10ed785d25a8")
 		(property "Reference" "R208"
-			(at 148.7016 150.4816 0)
+			(at 148.7869 165.0976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7100,7 +7100,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 148.4967 153.2469 0)
+			(at 148.582 167.8629 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7109,7 +7109,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 145.4479 152.3269 90)
+			(at 145.5332 166.9429 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7118,7 +7118,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.2259 152.3269 0)
+			(at 147.3112 166.9429 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7127,7 +7127,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 147.2259 152.3269 0)
+			(at 147.3112 166.9429 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8380,7 +8380,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 147.3112 166.9429 270)
+		(at 147.2259 152.3269 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8389,25 +8389,25 @@
 		(fields_autoplaced yes)
 		(uuid "a61a8469-64d0-4b37-b2e4-501ee90989dc")
 		(property "Reference" "JP201"
-			(at 149.86 165.6728 90)
+			(at 149.86 151.0568 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 149.86 168.2128 90)
+			(at 149.86 153.5968 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 147.3112 166.9429 0)
+			(at 147.2259 152.3269 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8416,7 +8416,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.3112 166.9429 0)
+			(at 147.2259 152.3269 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8425,7 +8425,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 147.3112 166.9429 0)
+			(at 147.2259 152.3269 0)
 			(effects
 				(font
 					(size 1.27 1.27)
