@@ -1,0 +1,370 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "8a424437-6f3e-424c-a786-3b8b285eee60")
+	(paper "A4")
+	(title_block
+		(title "Mixed Signal Board Project")
+		(date "2024-06-24")
+		(rev "V1.0")
+		(company "open source")
+		(comment 1 "this project for learning purposes")
+	)
+	(lib_symbols)
+	(text "Design Checklist: https://electronics.stackexchange.com/questions/28251/rules-and-guidelines-for-drawing-good-schematics"
+		(exclude_from_sim no)
+		(at 216.8125 164.0965 0)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+		)
+		(uuid "cea4ea86-fcbe-4f7a-803d-0e0efdc8d17d")
+	)
+	(sheet
+		(at 117.5818 110.2168)
+		(size 36.0882 34.5632)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4d26e31c-5a0c-46db-ba6a-e7d9b713efe8")
+		(property "Sheetname" "Motor_Driver"
+			(at 117.5818 109.5052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Motor_Driver.kicad_sch"
+			(at 117.5818 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SNSOUT" output
+			(at 153.67 127.3287 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f7ade1ee-4db6-4128-b6ec-2626dca18346")
+		)
+		(pin "nFAULT" output
+			(at 153.67 120.1344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "263d8a59-cd62-48e0-87fd-32498ec70d72")
+		)
+		(pin "SO" output
+			(at 144.0668 110.2168 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4591e447-b6d2-46e5-b312-312ca7774370")
+		)
+		(pin "nSLEEP" input
+			(at 135.775 110.2168 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e6d1e50d-998c-46a5-bc99-ab62d58ddff7")
+		)
+		(pin "EN" input
+			(at 117.5818 122.2073 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "69ed9d1e-370a-449b-b2dc-3e6a5446fef6")
+		)
+		(pin "PH" input
+			(at 117.5818 128.6701 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "19ee3ba0-fb97-44ac-9b60-7a2da80acdf5")
+		)
+		(instances
+			(project "mixed signal board project"
+				(path "/8a424437-6f3e-424c-a786-3b8b285eee60"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.3351 91.279)
+		(size 43.1349 39.531)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "55e0262f-b553-4a63-a1b4-cbd06934051f")
+		(property "Sheetname" "ADC"
+			(at 34.3351 90.5674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ADC.kicad_sch"
+			(at 34.3351 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCK_ADC" input
+			(at 77.47 110.9966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "076b6c21-13a2-47a6-a698-c956617076d2")
+		)
+		(pin "~{DRDY}" output
+			(at 77.47 114.5084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "07c4edcd-9f08-42fd-a62a-04ad6e14ea3b")
+		)
+		(pin "SDA_ADC" bidirectional
+			(at 77.47 107.0458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f00b2e48-62e1-4c34-ac4a-e9e2de91a49e")
+		)
+		(pin "RESET_ADC" input
+			(at 77.47 103.3876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b7dcea89-8181-4d2d-83dc-7696a54d9efe")
+		)
+		(instances
+			(project "mixed signal board project"
+				(path "/8a424437-6f3e-424c-a786-3b8b285eee60"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 47.4362 158.8859)
+		(size 36.0312 33.8376)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7fe7525c-d2ca-4f64-88ca-6c645d03b0a9")
+		(property "Sheetname" "Ethernet"
+			(at 47.4362 158.1743 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ethernet.kicad_sch"
+			(at 47.4362 193.3081 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mixed signal board project"
+				(path "/8a424437-6f3e-424c-a786-3b8b285eee60"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 93.4106 158.4285)
+		(size 33.0581 30.0199)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bd384025-0a01-4df1-9a37-e29b49d5bb6d")
+		(property "Sheetname" "Debugger"
+			(at 93.4106 157.7169 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Debugger.kicad_sch"
+			(at 93.4106 189.033 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mixed signal board project"
+				(path "/8a424437-6f3e-424c-a786-3b8b285eee60"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 186.1898 99.6439)
+		(size 41.1402 43.8661)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eec587cf-a1a3-41c9-8f50-400433a25eba")
+		(property "Sheetname" "USB_to_TTL"
+			(at 186.1898 98.9323 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB_to_TTL.kicad_sch"
+			(at 186.1898 144.0946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CH340_DN" bidirectional
+			(at 199.5698 143.51 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "92950775-574d-46e5-a015-5a88e7096a2c")
+		)
+		(pin "CH340_DP" bidirectional
+			(at 203.4312 143.51 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e8fcbe24-0fcc-4078-bc69-df62758218dc")
+		)
+		(pin "CH340_TXD" bidirectional
+			(at 208.6136 143.51 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "257bbdd2-951b-4da7-8f18-d17cee00876e")
+		)
+		(pin "CH340_RXD" bidirectional
+			(at 212.3733 143.51 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "66ed6eb9-6197-4890-98da-bccc63d5a571")
+		)
+		(pin "CH340_~{RST}" input
+			(at 218.7751 143.51 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "277e5a8f-c45b-4593-92a5-ce2cf148cc0e")
+		)
+		(instances
+			(project "mixed signal board project"
+				(path "/8a424437-6f3e-424c-a786-3b8b285eee60"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
