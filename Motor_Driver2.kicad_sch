@@ -834,7 +834,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U?"
+			(property "Reference" "U702"
 				(at 24.3105 17.7486 0)
 				(effects
 					(font
@@ -851,7 +851,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "footprints:RGE0024F"
 				(at -8.89 25.4 0)
 				(effects
 					(font
@@ -1133,6 +1133,24 @@
 						)
 					)
 					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 19.05 -13.97 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2378,6 +2396,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.4884 129.4869) (xy 135.7764 129.4869)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43112461-deec-46ba-a25f-6ba5ff787e54")
+	)
+	(wire
+		(pts
 			(xy 88.1048 90.2456) (xy 97.0671 90.2456)
 		)
 		(stroke
@@ -2475,6 +2503,16 @@
 			(type default)
 		)
 		(uuid "4d3e39d4-d43f-4240-b361-cbf514993c6a")
+	)
+	(wire
+		(pts
+			(xy 135.7764 129.4869) (xy 135.7764 139.1714)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eba2735-3d20-4434-9ae8-32c1a93c4f88")
 	)
 	(wire
 		(pts
@@ -3305,6 +3343,16 @@
 			(type default)
 		)
 		(uuid "dd7399ad-ae93-4f99-b5a5-fe2738aa365a")
+	)
+	(wire
+		(pts
+			(xy 135.843 139.1714) (xy 135.7764 139.1714)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e10d5c2c-afd8-48d0-8664-a27cc181b5eb")
 	)
 	(wire
 		(pts
@@ -5269,6 +5317,9 @@
 		(pin "5"
 			(uuid "37b101fe-0416-4d01-b88a-c2e33fc7ca47")
 		)
+		(pin "25"
+			(uuid "639cbe49-96ea-4d96-a65b-68ee9244e146")
+		)
 		(instances
 			(project "mixed signal board project"
 				(path "/8a424437-6f3e-424c-a786-3b8b285eee60/fd70bbc0-4293-4cb1-946c-bcfbb1973be8"
@@ -6076,6 +6127,71 @@
 			(project "mixed signal board project"
 				(path "/8a424437-6f3e-424c-a786-3b8b285eee60/fd70bbc0-4293-4cb1-946c-bcfbb1973be8"
 					(reference "#PWR0706")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.843 139.1714 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb5bbc35-9161-4c8c-a931-4d22d053f0d3")
+		(property "Reference" "#PWR0416"
+			(at 135.843 145.5214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.99 142.8958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.843 139.1714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.843 139.1714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.843 139.1714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4324095-a30d-42a6-a1e4-be3e405a5039")
+		)
+		(instances
+			(project "mixed signal board project"
+				(path "/8a424437-6f3e-424c-a786-3b8b285eee60/fd70bbc0-4293-4cb1-946c-bcfbb1973be8"
+					(reference "#PWR0416")
 					(unit 1)
 				)
 			)

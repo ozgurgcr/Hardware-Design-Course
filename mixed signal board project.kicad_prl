@@ -7,7 +7,7 @@
     "hidden_nets": [
       "GND"
     ],
-    "high_contrast_mode": 0,
+    "high_contrast_mode": 1,
     "net_color_mode": 2,
     "opacity": {
       "images": 0.6,
@@ -65,7 +65,7 @@
       40
     ],
     "visible_layers": "ffcffcf_ffffffff",
-    "zone_display_mode": 0
+    "zone_display_mode": 1
   },
   "git": {
     "repo_password": "",
