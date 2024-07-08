@@ -2421,7 +2421,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.1027 52.1348) (xy 67.1027 57.3452)
+			(xy 67.1027 52.1348) (xy 67.1027 57.2872)
 		)
 		(stroke
 			(width 0)
@@ -2491,7 +2491,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.2822 62.4252) (xy 76.9003 62.4252)
+			(xy 52.2294 62.3672) (xy 76.9003 62.3672)
 		)
 		(stroke
 			(width 0)
@@ -2601,7 +2601,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.1027 57.3452) (xy 53.2822 57.3452)
+			(xy 67.1027 57.2872) (xy 52.2294 57.2872)
 		)
 		(stroke
 			(width 0)
@@ -3231,7 +3231,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.2822 59.8852) (xy 58.4554 59.8852)
+			(xy 52.2294 59.8272) (xy 58.4554 59.8272)
 		)
 		(stroke
 			(width 0)
@@ -3311,7 +3311,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.9003 62.4252) (xy 76.9003 66.5943)
+			(xy 76.9003 62.3672) (xy 76.9003 66.5943)
 		)
 		(stroke
 			(width 0)
@@ -3421,7 +3421,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.4554 59.8852) (xy 58.4554 69.5105)
+			(xy 58.4554 59.8272) (xy 58.4554 69.5105)
 		)
 		(stroke
 			(width 0)
@@ -5595,8 +5595,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 48.2022 59.8852 0)
-		(mirror y)
+		(at 47.1494 59.8272 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5604,7 +5603,7 @@
 		(dnp no)
 		(uuid "a3a98ff0-317d-4c08-b7d9-0bb3537a5032")
 		(property "Reference" "J403"
-			(at 47.7823 53.2066 0)
+			(at 46.2706 51.3095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5612,7 +5611,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x03"
-			(at 47.9064 50.4752 0)
+			(at 46.3947 54.0409 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5620,7 +5619,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-5.0-H_1x03_P5.00mm_Horizontal"
-			(at 48.2022 59.8852 0)
+			(at 47.1494 59.8272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5629,7 +5628,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.2022 59.8852 0)
+			(at 47.1494 59.8272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5638,7 +5637,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 48.2022 59.8852 0)
+			(at 47.1494 59.8272 0)
 			(effects
 				(font
 					(size 1.27 1.27)

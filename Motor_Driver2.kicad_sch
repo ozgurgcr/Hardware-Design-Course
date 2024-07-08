@@ -4479,9 +4479,9 @@
 		(lib_id "Device:C_Small")
 		(at 156.5298 86.0634 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(uuid "3428f03e-3590-41d9-8bff-b5a9583149f4")
 		(property "Reference" "C704"
@@ -4502,7 +4502,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_Elec_8x10.2"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
 			(at 156.5298 86.0634 0)
 			(effects
 				(font
