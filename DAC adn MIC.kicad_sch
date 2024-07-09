@@ -2545,6 +2545,12 @@
 		(uuid "33d49bce-a712-4441-902b-66fea4572b97")
 	)
 	(junction
+		(at 249.9241 85.1383)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35b1384a-8696-4b92-ad05-1af38490eb40")
+	)
+	(junction
 		(at 65.9404 75.4956)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2591,6 +2597,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d168257-2ea5-4b14-a317-0576da1955f7")
+	)
+	(junction
+		(at 249.9241 82.5983)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "821f7248-8dd0-49ef-ae1b-fd3c745f82db")
 	)
 	(junction
 		(at 158.8839 29.6176)
@@ -2651,6 +2663,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d06e16c9-664a-4d09-bdde-6b6efc267d7f")
+	)
+	(junction
+		(at 249.9241 80.0583)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3d325a6-4df1-489a-92dd-afb0e45f54ac")
 	)
 	(no_connect
 		(at 124.8938 83.9146)
@@ -2874,7 +2892,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.8171 79.9115) (xy 249.1411 79.9115)
+			(xy 234.8171 80.0583) (xy 249.9241 80.0583)
 		)
 		(stroke
 			(width 0)
@@ -2964,7 +2982,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.8171 79.9115) (xy 234.8171 79.9573)
+			(xy 234.8171 80.0583) (xy 234.8171 79.9573)
 		)
 		(stroke
 			(width 0)
@@ -3204,7 +3222,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.9927 85.0544) (xy 247.9927 85.0671)
+			(xy 249.9241 85.1383) (xy 249.9241 85.0671)
 		)
 		(stroke
 			(width 0)
@@ -3314,7 +3332,7 @@
 	)
 	(wire
 		(pts
-			(xy 249.1411 82.4515) (xy 249.1411 82.5271)
+			(xy 249.9241 82.5983) (xy 249.9241 82.5271)
 		)
 		(stroke
 			(width 0)
@@ -3421,16 +3439,6 @@
 			(type default)
 		)
 		(uuid "5cb9cc5c-34f3-415f-ac6f-1dfa9c5d2745")
-	)
-	(wire
-		(pts
-			(xy 247.9927 85.0671) (xy 249.1411 85.0671)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "600160c3-f29d-4cdd-b194-c2b1ec85d829")
 	)
 	(wire
 		(pts
@@ -3774,7 +3782,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.4865 85.0544) (xy 245.4865 91.4188)
+			(xy 245.4865 85.1383) (xy 245.4865 91.4188)
 		)
 		(stroke
 			(width 0)
@@ -3904,7 +3912,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.9927 85.0544) (xy 245.4865 85.0544)
+			(xy 249.9241 85.1383) (xy 245.4865 85.1383)
 		)
 		(stroke
 			(width 0)
@@ -3924,7 +3932,7 @@
 	)
 	(wire
 		(pts
-			(xy 249.1411 79.9115) (xy 249.1411 79.9871)
+			(xy 249.9241 80.0583) (xy 249.9241 79.9871)
 		)
 		(stroke
 			(width 0)
@@ -4054,7 +4062,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.035 82.4515) (xy 249.1411 82.4515)
+			(xy 238.035 82.5983) (xy 249.9241 82.5983)
 		)
 		(stroke
 			(width 0)
@@ -4184,7 +4192,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.035 82.4515) (xy 238.035 82.4973)
+			(xy 238.035 82.5983) (xy 238.035 82.4973)
 		)
 		(stroke
 			(width 0)
@@ -5523,6 +5531,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 255.0041 82.5983 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2acfa9f9-8770-49d6-a989-8c7de9ba32b8")
+		(property "Reference" "J401"
+			(at 263.27 80.6932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "AudioJack3"
+			(at 263.27 83.2332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_Lumberg_1503_02_Horizontal"
+			(at 255.0041 82.5983 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.0041 82.5983 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 255.0041 82.5983 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "3bc27854-c46d-4461-86ab-dc67bb1c56ad")
+		)
+		(pin "T"
+			(uuid "d117b1ea-af30-49b7-84d5-39c75a28505b")
+		)
+		(pin "R"
+			(uuid "3f57099f-ce58-4095-96ef-df81472ed085")
+		)
+		(instances
+			(project ""
+				(path "/8a424437-6f3e-424c-a786-3b8b285eee60/087b0ea2-dd54-459d-a3b3-b58577c2dfaa"
+					(reference "J401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 240.1476 123.8252 0)
 		(unit 1)
@@ -6450,78 +6531,6 @@
 			(project "mixed signal board project"
 				(path "/8a424437-6f3e-424c-a786-3b8b285eee60/087b0ea2-dd54-459d-a3b3-b58577c2dfaa"
 					(reference "#PWR0824")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Audio:AudioJack3")
-		(at 254.2211 82.5271 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "974debb4-f096-48dd-b116-f8f15ebf9b7b")
-		(property "Reference" "J401"
-			(at 261.6149 83.1622 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "AudioJack3"
-			(at 261.6149 80.6222 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal"
-			(at 254.2211 82.5271 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 254.2211 82.5271 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
-			(at 254.2211 82.5271 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "T"
-			(uuid "92edef69-4f8b-46d7-961c-3449c315e573")
-		)
-		(pin "S"
-			(uuid "1acf6f49-8eda-4787-97ee-c99cbf8d79ba")
-		)
-		(pin "R"
-			(uuid "b1ab6061-743d-401d-90ab-c9f99de19a19")
-		)
-		(instances
-			(project "mixed signal board project"
-				(path "/8a424437-6f3e-424c-a786-3b8b285eee60/087b0ea2-dd54-459d-a3b3-b58577c2dfaa"
-					(reference "J401")
 					(unit 1)
 				)
 			)

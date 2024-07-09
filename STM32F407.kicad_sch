@@ -6805,7 +6805,7 @@
 		(uuid "ff37b5f2-1435-4291-86a8-f7b0e6b96d8d")
 	)
 	(label "EXT_UART_RX"
-		(at 266.7 31.75 180)
+		(at 266.8813 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6816,7 +6816,7 @@
 		(uuid "05e5bab4-3144-4711-a296-6f11fcd246a6")
 	)
 	(label "EXT_UART_TX"
-		(at 266.7 34.29 180)
+		(at 266.8284 31.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
