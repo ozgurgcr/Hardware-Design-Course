@@ -834,7 +834,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U?"
+			(property "Reference" "U802"
 				(at 24.3105 17.7486 0)
 				(effects
 					(font
@@ -851,7 +851,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "footprints:RGE0024F"
 				(at -8.89 25.4 0)
 				(effects
 					(font
@@ -1133,6 +1133,24 @@
 						)
 					)
 					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 19.05 -13.97 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2722,6 +2740,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.049 129.8619) (xy 134.2231 129.8619)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d17f64b-4f74-4043-8687-502a2e7a2bfe")
+	)
+	(wire
+		(pts
 			(xy 158.6339 126.6956) (xy 162.6944 126.6956)
 		)
 		(stroke
@@ -2779,6 +2807,16 @@
 			(type default)
 		)
 		(uuid "9443c5ef-3382-46b1-8100-e41d7c030e8d")
+	)
+	(wire
+		(pts
+			(xy 134.2231 129.8619) (xy 134.2231 132.1891)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97369610-ee86-4438-bdce-81198cb58620")
 	)
 	(wire
 		(pts
@@ -5088,6 +5126,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 134.2231 132.1891 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f37348a-d6b2-4faf-a2f1-637faceeb959")
+		(property "Reference" "#PWR0811"
+			(at 134.2231 138.5391 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.3701 135.9135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.2231 132.1891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.2231 132.1891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.2231 132.1891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90541b37-f4c7-473f-a25f-7af38bcfbde8")
+		)
+		(instances
+			(project "mixed signal board project"
+				(path "/8a424437-6f3e-424c-a786-3b8b285eee60/e71aabe1-ea26-4cd5-b208-bfd96f8b8470"
+					(reference "#PWR0811")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 167.6005 151.0858 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6085,6 +6188,9 @@
 		)
 		(pin "5"
 			(uuid "d37c1282-907f-48d9-9766-f5f923d716cd")
+		)
+		(pin "25"
+			(uuid "11df6c29-3016-4a51-af78-21cd4b534473")
 		)
 		(instances
 			(project "mixed signal board project"
