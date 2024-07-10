@@ -4,11 +4,7 @@
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
-    "hidden_nets": [
-      "GND",
-      "+12V",
-      "+1V8"
-    ],
+    "hidden_nets": [],
     "high_contrast_mode": 1,
     "net_color_mode": 2,
     "opacity": {
@@ -62,7 +58,6 @@
       33,
       34,
       35,
-      36,
       39,
       40
     ],

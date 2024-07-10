@@ -6826,6 +6826,17 @@
 		)
 		(uuid "08cbf9d2-0e52-4eb9-bcc0-ab12b3b9afc7")
 	)
+	(label "VDDA"
+		(at 144.463 29.0523 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0df59f3c-e625-4a48-9320-f4f2b4541de4")
+	)
 	(label "EXT_UART_TX"
 		(at 156.7969 61.0259 0)
 		(fields_autoplaced yes)
@@ -6881,6 +6892,17 @@
 		)
 		(uuid "78c9924d-53eb-4f4e-aef9-0a12af8964cb")
 	)
+	(label "VDDA"
+		(at 104.9148 48.3259 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b45b294-453d-4696-b125-158aa48ce480")
+	)
 	(label "CAN_RX"
 		(at 266.8761 50.4481 180)
 		(fields_autoplaced yes)
@@ -6902,17 +6924,6 @@
 			(justify left bottom)
 		)
 		(uuid "c03611be-2a0c-4945-85ad-5df1bb39ae46")
-	)
-	(label "+3V3"
-		(at 105.617 48.3259 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d13709fb-3055-460c-9674-4c518b1e6da3")
 	)
 	(hierarchical_label "ETH_RX_DV"
 		(shape bidirectional)
@@ -7489,6 +7500,259 @@
 			(justify right)
 		)
 		(uuid "f0455831-60bb-44c6-8cdc-33d2343e5188")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 179.4987 142.2673 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "105a009c-522b-4800-b693-afdbafbca17e")
+		(property "Netclass" "Critical"
+			(at 180.1972 139.7273 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 181.879 119.4716 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "14b91347-1cae-44f5-95fa-77d98c711ae7")
+		(property "Netclass" "Critical"
+			(at 182.5775 116.9316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 180.9689 53.4636 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2806b3c2-d785-4e71-b182-9bdd69a4a1a1")
+		(property "Netclass" "Critical"
+			(at 181.6674 50.9236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 23.3383 83.6885 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52e99146-3737-462c-90c6-1ba309e80771")
+		(property "Netclass" "Critical"
+			(at 24.0368 81.1485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 96.3049 134.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "60799d49-c96f-43d4-94cb-fdf2aee5615f")
+		(property "Netclass" "Critical"
+			(at 97.0034 132.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 177.3985 50.8751 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "83d2bc16-eea2-4d9f-86e2-620da1db66d2")
+		(property "Netclass" "Critical"
+			(at 178.097 48.3351 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 97.425 142.2196 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "851c0e17-cbc6-48f6-98f8-bcc0885004ab")
+		(property "Netclass" "Critical"
+			(at 98.1235 139.6796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 96.1649 132.2399 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8efae03b-a73a-4b07-be76-85a744fbcd2d")
+		(property "Netclass" "Critical"
+			(at 96.8634 129.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 96.5149 124.501 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0a9f87a-65ad-469b-b628-bc3da2634ffb")
+		(property "Netclass" "Critical"
+			(at 97.2134 121.961 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 97.425 129.6641 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9df7dee-281a-4146-8353-03c917fed090")
+		(property "Netclass" "Critical"
+			(at 98.1235 127.1241 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 96.3049 139.6912 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fce13558-a8d2-402f-a1bb-b551ff0f327b")
+		(property "Netclass" "Critical"
+			(at 97.0034 137.1512 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")

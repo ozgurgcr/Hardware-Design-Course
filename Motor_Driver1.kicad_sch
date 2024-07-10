@@ -834,7 +834,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U?"
+			(property "Reference" "U802"
 				(at 24.3105 17.7486 0)
 				(effects
 					(font
@@ -851,7 +851,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "footprints:RGE0024F"
 				(at -8.89 25.4 0)
 				(effects
 					(font
@@ -1133,6 +1133,24 @@
 						)
 					)
 					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -19.05 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5816,6 +5834,9 @@
 		)
 		(pin "5"
 			(uuid "d37c1282-907f-48d9-9766-f5f923d716cd")
+		)
+		(pin "25"
+			(uuid "05b9209c-441d-4734-bb35-994ac5968c8d")
 		)
 		(instances
 			(project "mixed signal board project"

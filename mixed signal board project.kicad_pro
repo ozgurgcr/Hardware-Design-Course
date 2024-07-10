@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -488,6 +488,23 @@
       {
         "bus_width": 12,
         "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Critical",
+        "pcb_color": "rgb(255, 255, 0)",
+        "schematic_color": "rgb(255, 255, 0)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
         "diff_pair_gap": 0.04,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.085,
@@ -512,7 +529,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "SIGNAL_50_OHM",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(0, 255, 255)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.17,
         "via_diameter": 0.45,
@@ -526,9 +543,32 @@
     "net_colors": {
       "+3.3VA": "rgb(71, 226, 255)",
       "+3V3": "rgb(255, 143, 23)",
-      "GND": "rgb(140, 255, 127)"
+      "GND": "rgb(0, 255, 0)"
     },
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/ADC/AIN0_ADC": "Critical",
+      "/ADC/AIN1_ADC": "Critical",
+      "/ADC/RESET_ADC": "Critical",
+      "/DAC adn MIC/SPKR_OUTA_N": "Critical",
+      "/DAC adn MIC/SPKR_OUTA_P": "Critical",
+      "/DAC adn MIC/SPKR_OUTB_N": "Critical",
+      "/DAC adn MIC/SPKR_OUTB_P": "Critical",
+      "/DAC adn MIC/~{RESET}_DAC": "Critical",
+      "/Debugger/NRST": "Critical",
+      "/Ethernet/RESET_PHY": "Critical",
+      "/Motor_Driver1/SNSOUT": "Critical",
+      "/Motor_Driver1/SO": "Critical",
+      "/Motor_Driver1/nFAULT": "Critical",
+      "/Motor_Driver2/SNSOUT_2": "Critical",
+      "/Motor_Driver2/SO_2": "Critical",
+      "/Motor_Driver2/nFAULT_2": "Critical",
+      "/STM32F407/CH340_~{RST}": "Critical",
+      "/STM32F407/NTRST_F407": "Critical",
+      "Net-(U301-AIN0)": "Critical",
+      "Net-(U301-AIN1)": "Critical",
+      "Net-(U401-HP{slash}LINE_OUTA)": "Critical",
+      "Net-(U401-HP{slash}LINE_OUTB)": "Critical"
+    },
     "netclass_patterns": [
       {
         "netclass": "SIGNAL_50_OHM",

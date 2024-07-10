@@ -4603,6 +4603,144 @@
 		)
 		(uuid "f5bd923e-22c5-4e1c-b551-102af06cc2df")
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 165.5338 96.6146 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0771600f-1526-48b9-922e-2aed64b11dd5")
+		(property "Netclass" "Critical"
+			(at 166.2323 94.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 242.1112 82.4606 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b093552-37ba-414d-ad9b-de39b0031cf7")
+		(property "Netclass" "Critical"
+			(at 242.8097 79.9206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 165.5338 99.1546 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52163659-217f-4a1b-92a8-1be6c4369c3d")
+		(property "Netclass" "Critical"
+			(at 166.2323 96.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 165.5338 94.0746 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "918c3605-02fe-4b4e-b95b-0a83be7fa551")
+		(property "Netclass" "Critical"
+			(at 166.2323 91.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 229.2906 79.9573 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5dc9f7e-1b11-458e-ae29-de6afe7a305c")
+		(property "Netclass" "Critical"
+			(at 229.9891 77.4173 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 165.5338 101.6946 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fac14389-f8b9-427d-aeba-ed82722a88a3")
+		(property "Netclass" "Critical"
+			(at 166.2323 99.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 174.5662 68.6665 90)

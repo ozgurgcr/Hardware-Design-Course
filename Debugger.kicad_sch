@@ -4644,6 +4644,29 @@
 		)
 		(uuid "fb79d6ec-5032-44b1-9ff7-349f7ade302f")
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 100.9902 38.2103 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f3ffcda8-27a9-49df-9d23-bfc3f687af0a")
+		(property "Netclass" "Critical"
+			(at 101.6887 35.6703 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 98.0885 57.9043 0)
