@@ -6828,7 +6828,7 @@
 		(uuid "3cf2d16e-6d97-4dad-a386-28d6cb611b9d")
 	)
 	(label "CAN_TX"
-		(at 266.8761 52.9881 180)
+		(at 267.0519 50.4481 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6872,7 +6872,7 @@
 		(uuid "7b45b294-453d-4696-b125-158aa48ce480")
 	)
 	(label "CAN_RX"
-		(at 266.8761 50.4481 180)
+		(at 267.5787 52.9881 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6943,7 +6943,7 @@
 	)
 	(hierarchical_label "SO"
 		(shape input)
-		(at 185.9257 50.8751 0)
+		(at 185.8692 53.4636 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7003,7 +7003,7 @@
 	)
 	(hierarchical_label "SO_2"
 		(shape input)
-		(at 186.2302 53.4636 0)
+		(at 185.9257 50.8751 0)
 		(fields_autoplaced yes)
 		(effects
 			(font

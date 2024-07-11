@@ -978,23 +978,23 @@
 				)
 			)
 		)
-		(symbol "Mechanical:MountingHole"
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
 			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
-				(at 0 5.08 0)
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1019,7 +1019,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Mounting Hole without connection"
+			(property "Description" "Mounting Hole with connection"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1037,7 +1037,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*"
+			(property "ki_fp_filters" "MountingHole*Pad*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1046,9 +1046,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "MountingHole_0_1"
+			(symbol "MountingHole_Pad_0_1"
 				(circle
-					(center 0 0)
+					(center 0 1.27)
 					(radius 1.27)
 					(stroke
 						(width 1.27)
@@ -1056,6 +1056,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -1692,6 +1712,138 @@
 				)
 			)
 		)
+		(symbol "power:Earth"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "Earth"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"Earth\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global ground gnd"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Earth_0_1"
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -2.54) (xy 0.127 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Earth_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -2269,6 +2421,14 @@
 		(color 0 0 0 0)
 		(uuid "eee771e1-0cfd-4fcd-a47d-4b1ff7491d86")
 	)
+	(no_connect
+		(at 122.221 152.7349)
+		(uuid "4596e348-5d9c-4c7d-a106-91f1ed912266")
+	)
+	(no_connect
+		(at 99.3247 152.5341)
+		(uuid "8bc6b00a-bc27-4d22-b638-d2af3385dbd0")
+	)
 	(wire
 		(pts
 			(xy 242.7543 59.8808) (xy 242.7543 67.0595)
@@ -2741,6 +2901,16 @@
 	)
 	(wire
 		(pts
+			(xy 75.6884 156.2136) (xy 75.6884 152.7349)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "674eaf5e-0b09-449c-b10d-45a489a1a703")
+	)
+	(wire
+		(pts
 			(xy 183.6373 111.1069) (xy 183.6373 107.1757)
 		)
 		(stroke
@@ -2868,6 +3038,16 @@
 			(type default)
 		)
 		(uuid "848b32a8-9cd0-432e-b773-8a229e5f376d")
+	)
+	(wire
+		(pts
+			(xy 53.9747 152.5341) (xy 53.934 152.5341)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8513c1c4-04ff-49a1-ae83-f1ef78a58810")
 	)
 	(wire
 		(pts
@@ -3151,6 +3331,16 @@
 	)
 	(wire
 		(pts
+			(xy 75.6884 152.7349) (xy 75.6251 152.7349)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0369574-c14a-4b04-b71d-26a1f56f4a0c")
+	)
+	(wire
+		(pts
 			(xy 191.2089 122.2781) (xy 191.2089 122.441)
 		)
 		(stroke
@@ -3388,6 +3578,16 @@
 			(type default)
 		)
 		(uuid "e0c46732-1556-4f57-bf4e-e106a1de5efe")
+	)
+	(wire
+		(pts
+			(xy 53.9747 155.3066) (xy 53.9747 152.5341)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1d57622-1929-4cf9-a3d5-a4ca5fd1bae4")
 	)
 	(wire
 		(pts
@@ -3959,17 +4159,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 99.3247 149.9941 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cf347ef-1ff8-4681-80fc-23656d3c84ca")
 		(property "Reference" "H3"
-			(at 102.87 148.724 0)
+			(at 102.87 147.454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3978,7 +4178,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 102.87 151.264 0)
+			(at 102.87 149.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3986,7 +4186,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
 			(at 99.3247 149.9941 0)
 			(effects
 				(font
@@ -4004,7 +4204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "Mounting Hole with connection"
 			(at 99.3247 149.9941 0)
 			(effects
 				(font
@@ -4012,6 +4212,9 @@
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "92fd38f3-a08e-44e2-a8ce-3c70fbc257d3")
 		)
 		(instances
 			(project ""
@@ -4083,6 +4286,72 @@
 			(project "mixed signal board project"
 				(path "/8a424437-6f3e-424c-a786-3b8b285eee60/89ed5f6c-6a59-4754-9fdb-29c83f804302"
 					(reference "#FLG0409")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 53.9747 155.3066 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35965acd-4e6b-4ac0-972a-1bb5bb797cd9")
+		(property "Reference" "#PWR0416"
+			(at 53.9747 161.6566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 53.9747 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.9747 155.3066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.9747 155.3066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 53.9747 155.3066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1c0469d-3b3f-4210-b842-2077afaef379")
+		)
+		(instances
+			(project ""
+				(path "/8a424437-6f3e-424c-a786-3b8b285eee60/89ed5f6c-6a59-4754-9fdb-29c83f804302"
+					(reference "#PWR0416")
 					(unit 1)
 				)
 			)
@@ -5530,6 +5799,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 75.6884 156.2136 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1fcbe25-7a1d-4270-834f-288cf4708522")
+		(property "Reference" "#PWR0102"
+			(at 75.6884 162.5636 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 75.6884 160.927 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 75.6884 156.2136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 75.6884 156.2136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 75.6884 156.2136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1c0469d-3b3f-4210-b842-2077afaef379")
+		)
+		(instances
+			(project ""
+				(path "/8a424437-6f3e-424c-a786-3b8b285eee60/89ed5f6c-6a59-4754-9fdb-29c83f804302"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
 		(at 48.2022 59.8852 0)
 		(mirror y)
@@ -5671,17 +6006,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 53.934 149.9941 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4bc3025-e15b-4ee3-bab2-edfddefddfe3")
 		(property "Reference" "H1"
-			(at 57.15 148.724 0)
+			(at 57.15 147.454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5690,7 +6025,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 57.15 151.264 0)
+			(at 57.15 149.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5698,7 +6033,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
 			(at 53.934 149.9941 0)
 			(effects
 				(font
@@ -5716,7 +6051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "Mounting Hole with connection"
 			(at 53.934 149.9941 0)
 			(effects
 				(font
@@ -5724,6 +6059,9 @@
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "29b09368-e69c-4717-a3a3-8714cb57450f")
 		)
 		(instances
 			(project ""
@@ -5735,17 +6073,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 122.221 150.1949 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c56f7dfb-65fd-481d-87da-c14d50b94eb1")
 		(property "Reference" "H4"
-			(at 125.73 148.9248 0)
+			(at 125.73 147.6548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5754,7 +6092,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 125.73 151.4648 0)
+			(at 125.73 150.1948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5762,7 +6100,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
 			(at 122.221 150.1949 0)
 			(effects
 				(font
@@ -5780,7 +6118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "Mounting Hole with connection"
 			(at 122.221 150.1949 0)
 			(effects
 				(font
@@ -5788,6 +6126,9 @@
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "2fab6d21-14bc-404c-8828-326df3df84ab")
 		)
 		(instances
 			(project ""
@@ -5994,17 +6335,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "Mechanical:MountingHole_Pad")
 		(at 75.6251 150.1949 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d82ba2ca-f9dd-4cea-9606-94f83d5e569e")
 		(property "Reference" "H2"
-			(at 78.74 148.9248 0)
+			(at 78.74 147.6548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6013,7 +6354,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 78.74 151.4648 0)
+			(at 78.74 150.1948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6021,7 +6362,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
 			(at 75.6251 150.1949 0)
 			(effects
 				(font
@@ -6039,7 +6380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "Mounting Hole with connection"
 			(at 75.6251 150.1949 0)
 			(effects
 				(font
@@ -6047,6 +6388,9 @@
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "7eeefccf-d1aa-45a5-842c-6ca53fcd57fe")
 		)
 		(instances
 			(project ""
