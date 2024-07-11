@@ -1612,7 +1612,7 @@
 			)
 			(uuid "9de09eb1-fee4-4b35-b9c8-8c0af140dd30")
 		)
-		(pin "SCL_DAC" input
+		(pin "SCL" input
 			(at 91.8099 109.4445 0)
 			(effects
 				(font
@@ -1642,7 +1642,7 @@
 			)
 			(uuid "81964d72-8d64-4861-8d71-95de6b788c36")
 		)
-		(pin "SDA_DAC" bidirectional
+		(pin "SDA" bidirectional
 			(at 91.8099 111.8149 0)
 			(effects
 				(font
@@ -1770,7 +1770,7 @@
 			)
 			(uuid "3d20d8fd-5e41-4418-b00e-53736c56b9bb")
 		)
-		(pin "SCL_DAC" output
+		(pin "SCL" output
 			(at 104.3039 109.1789 180)
 			(effects
 				(font
@@ -1780,7 +1780,7 @@
 			)
 			(uuid "3a2f2df8-b151-4729-96a9-407796a86ca3")
 		)
-		(pin "SDA_DAC" bidirectional
+		(pin "SDA" bidirectional
 			(at 104.3039 111.3912 180)
 			(effects
 				(font
@@ -2020,7 +2020,7 @@
 			)
 			(uuid "1a13f21b-670f-41b7-9cb1-4ffab492741e")
 		)
-		(pin "SCK_ADC" output
+		(pin "SCL" output
 			(at 104.3039 139.877 180)
 			(effects
 				(font
@@ -2030,7 +2030,7 @@
 			)
 			(uuid "360852a5-9582-4948-b7c9-65fc09a9ab30")
 		)
-		(pin "SDA_ADC" bidirectional
+		(pin "SDA" bidirectional
 			(at 104.3039 142.2664 180)
 			(effects
 				(font
@@ -2208,7 +2208,7 @@
 				(justify left top)
 			)
 		)
-		(pin "SCK_ADC" input
+		(pin "SCL" input
 			(at 84.756 145.408 0)
 			(effects
 				(font
@@ -2218,7 +2218,7 @@
 			)
 			(uuid "f94d3e6f-22d5-44a0-96fa-1caea15efcfc")
 		)
-		(pin "SDA_ADC" bidirectional
+		(pin "SDA" bidirectional
 			(at 84.756 148.1735 0)
 			(effects
 				(font

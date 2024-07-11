@@ -2266,7 +2266,7 @@
 		)
 		(uuid "2dba554f-b24b-4cda-bc26-c522586957af")
 	)
-	(hierarchical_label "SCK_ADC"
+	(hierarchical_label "SCL"
 		(shape input)
 		(at 227.33 82.55 0)
 		(fields_autoplaced yes)
@@ -2290,7 +2290,7 @@
 		)
 		(uuid "cde911a2-5d3e-4fa8-9852-356f575bee01")
 	)
-	(hierarchical_label "SDA_ADC"
+	(hierarchical_label "SDA"
 		(shape bidirectional)
 		(at 227.33 80.01 0)
 		(fields_autoplaced yes)

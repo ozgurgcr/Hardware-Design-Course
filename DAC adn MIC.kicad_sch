@@ -4495,7 +4495,7 @@
 		)
 		(uuid "f64de900-43ed-41fd-95cb-0ccf972bcb16")
 	)
-	(hierarchical_label "SDA_DAC"
+	(hierarchical_label "SDA"
 		(shape bidirectional)
 		(at 106.3783 111.9758 180)
 		(fields_autoplaced yes)
@@ -4579,7 +4579,7 @@
 		)
 		(uuid "b4e3340f-866d-4e89-ab29-7629dbf7cb1c")
 	)
-	(hierarchical_label "SCL_DAC"
+	(hierarchical_label "SCL"
 		(shape input)
 		(at 106.3783 109.4358 180)
 		(fields_autoplaced yes)
