@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 2.799999,
-          "width": 2.799999
+          "drill": 0.8,
+          "height": 1.6,
+          "width": 1.6
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -127,10 +127,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.45,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -481,6 +481,23 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
+        "via_diameter": 0.9,
+        "via_drill": 0.45,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Critical",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(194, 194, 0)",
+        "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
@@ -495,6 +512,23 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "DIFF_100",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 1.0,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Earth",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
@@ -523,62 +557,7 @@
     "meta": {
       "version": 3
     },
-    "net_colors": {
-      "+1V8": "rgb(132, 132, 132)",
-      "+3.3VA": "rgb(255, 151, 171)",
-      "+3V3": "rgb(255, 0, 0)",
-      "/ADC/RESET_ADC": "rgb(128, 77, 0)",
-      "/ADC/SCK_ADC": "rgb(128, 77, 0)",
-      "/ADC/SDA_ADC": "rgb(128, 77, 0)",
-      "/ADC/~{DRDY}_ADC": "rgb(128, 77, 0)",
-      "/DAC adn MIC/CLK_MIC": "rgb(132, 132, 0)",
-      "/DAC adn MIC/DOUT_MIC": "rgb(132, 132, 0)",
-      "/DAC adn MIC/LRCK_DAC": "rgb(132, 132, 0)",
-      "/DAC adn MIC/MCLK_DAC": "rgb(132, 132, 0)",
-      "/DAC adn MIC/SCLK_DAC": "rgb(132, 132, 0)",
-      "/DAC adn MIC/SCL_DAC": "rgb(132, 132, 0)",
-      "/DAC adn MIC/SDA_DAC": "rgb(132, 132, 0)",
-      "/DAC adn MIC/SDIN_DAC": "rgb(132, 132, 0)",
-      "/DAC adn MIC/~{RESET}_DAC": "rgb(132, 132, 0)",
-      "/Debugger/JTCLK_F407": "rgb(0, 194, 194)",
-      "/Debugger/JTMS_F407": "rgb(0, 194, 194)",
-      "/Ethernet/CEXT": "rgb(0, 255, 255)",
-      "/Ethernet/ETH_COL": "rgb(0, 255, 255)",
-      "/Ethernet/ETH_CRS": "rgb(0, 255, 255)",
-      "/Ethernet/ETH_INT": "rgb(0, 255, 255)",
-      "/Ethernet/ETH_MDC": "rgb(0, 255, 255)",
-      "/Ethernet/ETH_MDIO": "rgb(0, 255, 255)",
-      "/Ethernet/ETH_RX_CLK": "rgb(0, 255, 255)",
-      "/Ethernet/ETH_RX_D0": "rgb(0, 255, 255)",
-      "/Ethernet/ETH_RX_D1": "rgb(0, 255, 255)",
-      "/Ethernet/ETH_RX_D2": "rgb(0, 255, 255)",
-      "/Ethernet/ETH_RX_D3": "rgb(0, 255, 255)",
-      "/Ethernet/ETH_RX_DV": "rgb(0, 255, 255)",
-      "/Ethernet/ETH_RX_ER": "rgb(0, 255, 255)",
-      "/Ethernet/ETH_TX_CLK": "rgb(0, 255, 255)",
-      "/Ethernet/ETH_TX_D0": "rgb(0, 255, 255)",
-      "/Ethernet/ETH_TX_D1": "rgb(0, 255, 255)",
-      "/Ethernet/ETH_TX_D2": "rgb(0, 255, 255)",
-      "/Ethernet/ETH_TX_D3": "rgb(0, 255, 255)",
-      "/Ethernet/ETH_TX_EN": "rgb(0, 255, 255)",
-      "/Motor_Driver1/EN": "rgb(132, 0, 132)",
-      "/Motor_Driver1/PH": "rgb(132, 0, 132)",
-      "/Motor_Driver1/SNSOUT": "rgb(132, 0, 132)",
-      "/Motor_Driver1/SO": "rgb(132, 0, 132)",
-      "/Motor_Driver1/nFAULT": "rgb(132, 0, 132)",
-      "/Motor_Driver2/EN_2": "rgb(255, 0, 255)",
-      "/Motor_Driver2/PH_2": "rgb(255, 0, 255)",
-      "/Motor_Driver2/SNSOUT_2": "rgb(255, 0, 255)",
-      "/Motor_Driver2/SO_2": "rgb(255, 0, 255)",
-      "/Motor_Driver2/nFAULT_2": "rgb(255, 0, 255)",
-      "/STM32F407/CH340_RXD": "rgb(0, 194, 194)",
-      "/STM32F407/CH340_TXD": "rgb(0, 194, 194)",
-      "/STM32F407/CH340_~{RST}": "rgb(0, 194, 194)",
-      "/STM32F407/NTRST_F407": "rgb(0, 194, 194)",
-      "GND": "rgb(140, 255, 127)",
-      "Net-(U401-FILT_P)": "rgb(255, 255, 25)",
-      "Net-(U401-VQ)": "rgb(255, 253, 19)"
-    },
+    "net_colors": null,
     "netclass_assignments": null,
     "netclass_patterns": [
       {
@@ -676,6 +655,10 @@
       {
         "netclass": "SIGNAL_50_OHM",
         "pattern": "/Ethernet/ETH_XO"
+      },
+      {
+        "netclass": "Earth",
+        "pattern": "Earth"
       }
     ]
   },
@@ -694,7 +677,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 800,
+    "annotate_start_num": 500,
     "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {

@@ -4585,7 +4585,7 @@
 		)
 		(uuid "f64de900-43ed-41fd-95cb-0ccf972bcb16")
 	)
-	(hierarchical_label "SDA_DAC"
+	(hierarchical_label "SDA"
 		(shape bidirectional)
 		(at 106.3783 111.9758 180)
 		(fields_autoplaced yes)
@@ -4669,7 +4669,7 @@
 		)
 		(uuid "b4e3340f-866d-4e89-ab29-7629dbf7cb1c")
 	)
-	(hierarchical_label "SCL_DAC"
+	(hierarchical_label "SCL"
 		(shape input)
 		(at 106.3783 109.4358 180)
 		(fields_autoplaced yes)
@@ -5126,6 +5126,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+2V5")
+		(at 34.3744 143.4649 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fa048ce-5c11-4a3a-ad05-cf9c325ccca6")
+		(property "Reference" "#PWR0505"
+			(at 34.3744 147.2749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 34.3744 138.9664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.3744 143.4649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.3744 143.4649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+2V5\""
+			(at 34.3744 143.4649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f758ccd8-01f8-4847-8e19-0749e2d573c9")
+		)
+		(instances
+			(project "mixed signal board project"
+				(path "/8a424437-6f3e-424c-a786-3b8b285eee60/087b0ea2-dd54-459d-a3b3-b58577c2dfaa"
+					(reference "#PWR0505")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 187.9333 35.3189 0)
 		(unit 1)
@@ -5392,71 +5458,6 @@
 			(project "mixed signal board project"
 				(path "/8a424437-6f3e-424c-a786-3b8b285eee60/087b0ea2-dd54-459d-a3b3-b58577c2dfaa"
 					(reference "C401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 34.3744 143.4649 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2494c926-c0c6-445d-86bb-942e452fdf53")
-		(property "Reference" "#PWR0828"
-			(at 34.3744 147.2749 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 34.1366 139.8024 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.3744 143.4649 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.3744 143.4649 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 34.3744 143.4649 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "256ae093-f0da-4873-a912-5e0b659de772")
-		)
-		(instances
-			(project "mixed signal board project"
-				(path "/8a424437-6f3e-424c-a786-3b8b285eee60/087b0ea2-dd54-459d-a3b3-b58577c2dfaa"
-					(reference "#PWR0828")
 					(unit 1)
 				)
 			)
@@ -6132,6 +6133,72 @@
 			(project "mixed signal board project"
 				(path "/8a424437-6f3e-424c-a786-3b8b285eee60/087b0ea2-dd54-459d-a3b3-b58577c2dfaa"
 					(reference "#PWR0405")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+2V5")
+		(at 79.6777 129.7045 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6427b818-9615-4537-94a5-df4d4e728677")
+		(property "Reference" "#PWR0504"
+			(at 79.6777 133.5145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 79.6777 125.206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 79.6777 129.7045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 79.6777 129.7045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+2V5\""
+			(at 79.6777 129.7045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf0fc883-8af0-44f8-9fd3-d31bc5cb6b9e")
+		)
+		(instances
+			(project "mixed signal board project"
+				(path "/8a424437-6f3e-424c-a786-3b8b285eee60/087b0ea2-dd54-459d-a3b3-b58577c2dfaa"
+					(reference "#PWR0504")
 					(unit 1)
 				)
 			)
@@ -7938,71 +8005,6 @@
 			(project "mixed signal board project"
 				(path "/8a424437-6f3e-424c-a786-3b8b285eee60/087b0ea2-dd54-459d-a3b3-b58577c2dfaa"
 					(reference "C405")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 79.6777 129.7045 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f9d0a4c9-3fdf-4b70-b0d4-45f08f2817a9")
-		(property "Reference" "#PWR0827"
-			(at 79.6777 133.5145 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 79.4399 126.042 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 79.6777 129.7045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 79.6777 129.7045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 79.6777 129.7045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "07bb8cb2-d304-42a5-b75a-02111b7d9892")
-		)
-		(instances
-			(project "mixed signal board project"
-				(path "/8a424437-6f3e-424c-a786-3b8b285eee60/087b0ea2-dd54-459d-a3b3-b58577c2dfaa"
-					(reference "#PWR0827")
 					(unit 1)
 				)
 			)

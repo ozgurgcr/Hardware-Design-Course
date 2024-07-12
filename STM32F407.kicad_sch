@@ -4033,6 +4033,10 @@
 		(uuid "f889afcb-6cb2-49bd-a57d-7dfdb8236ca5")
 	)
 	(no_connect
+		(at 156.7969 101.6659)
+		(uuid "06c7ebb3-da4d-4958-bc88-2967b49f924d")
+	)
+	(no_connect
 		(at 156.7969 157.5459)
 		(uuid "0788e9d6-058a-4f46-acc1-69e0ca5f36a5")
 	)
@@ -4139,6 +4143,10 @@
 	(no_connect
 		(at 111.0769 88.9659)
 		(uuid "d10fc3af-d01b-48be-ae0a-fa9895fdeb07")
+	)
+	(no_connect
+		(at 156.7969 104.2059)
+		(uuid "e0340845-9438-41fe-bf20-799968aa14e9")
 	)
 	(no_connect
 		(at 111.0769 71.1859)
@@ -5346,16 +5354,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.9109 104.1987) (xy 156.7969 104.1987)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6905106b-25f6-460d-88c2-e2e2e4399014")
-	)
-	(wire
-		(pts
 			(xy 35.719 83.6951) (xy 35.719 85.5894)
 		)
 		(stroke
@@ -5443,16 +5441,6 @@
 			(type default)
 		)
 		(uuid "6fb992cd-f3ee-45f7-b062-ad9349787ec9")
-	)
-	(wire
-		(pts
-			(xy 188.5035 101.6966) (xy 156.7969 101.6966)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "754297b8-1e93-4f88-99c0-5e51907a7d63")
 	)
 	(wire
 		(pts
@@ -6974,18 +6962,6 @@
 		)
 		(uuid "1783cd1c-68ba-4a3f-b853-f8a1e57a429c")
 	)
-	(hierarchical_label "SDA_ADC"
-		(shape bidirectional)
-		(at 187.9109 104.1987 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "178a4e38-117b-4639-ae65-15ee32875c01")
-	)
 	(hierarchical_label "ETH_MDC"
 		(shape output)
 		(at 229.1869 127.0659 0)
@@ -6998,7 +6974,7 @@
 		)
 		(uuid "187ceef4-d4e8-4a56-af0c-bec48761fa64")
 	)
-	(hierarchical_label "SCL_DAC"
+	(hierarchical_label "SCL"
 		(shape output)
 		(at 187.8893 96.6121 0)
 		(fields_autoplaced yes)
@@ -7238,18 +7214,6 @@
 		)
 		(uuid "6d654f77-2082-4c06-ad4c-1e061043f8a4")
 	)
-	(hierarchical_label "SCK_ADC"
-		(shape output)
-		(at 188.5035 101.6966 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "74809ad5-ca06-43bb-ad37-1082bc23f4e4")
-	)
 	(hierarchical_label "ETH_RX_ER"
 		(shape input)
 		(at 188.0121 106.7303 0)
@@ -7346,7 +7310,7 @@
 		)
 		(uuid "b03cf13f-0885-415f-9e07-07e2598b9245")
 	)
-	(hierarchical_label "SDA_DAC"
+	(hierarchical_label "SDA"
 		(shape bidirectional)
 		(at 187.8893 99.1521 0)
 		(fields_autoplaced yes)
