@@ -1,0 +1,656 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "4958fe52-0da4-46c9-91c3-f0e499908d9d")
+	(paper "A4")
+	(title_block
+		(title "Mixed Signal Board Project")
+		(date "2024-06-24")
+		(rev "V1.0")
+		(company "open source")
+		(comment 1 "this project for learning purposes")
+	)
+	(lib_symbols)
+	(polyline
+		(pts
+			(xy 34.29 90.17) (xy 41.91 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02c85740-d06b-40bf-ae0d-5db5523c9847")
+	)
+	(polyline
+		(pts
+			(xy 62.865 85.09) (xy 62.865 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a9d7a49-6a9c-4bf1-82e6-0cd22a6944c5")
+	)
+	(polyline
+		(pts
+			(xy 77.47 124.46) (xy 93.345 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2717054f-a9a8-47c1-afd5-8b1e4a4b7d5b")
+	)
+	(polyline
+		(pts
+			(xy 130.81 109.855) (xy 146.05 109.855)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e3b75f4-f757-4a42-b990-73b2b28ccf62")
+	)
+	(polyline
+		(pts
+			(xy 146.05 132.08) (xy 160.02 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "304f39e2-0485-4b68-a18d-8a3d6ed00891")
+	)
+	(polyline
+		(pts
+			(xy 33.655 129.54) (xy 41.91 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "366c8c85-ae26-460c-8a54-2686afb5fdc5")
+	)
+	(polyline
+		(pts
+			(xy 99.06 85.725) (xy 62.865 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d15f7c6-8b2f-430f-a1fa-93d1582c829e")
+	)
+	(polyline
+		(pts
+			(xy 134.62 55.88) (xy 134.62 66.675)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40c13fdc-d2d2-4b52-a024-a4dcc4cff6a2")
+	)
+	(polyline
+		(pts
+			(xy 121.285 66.675) (xy 134.62 66.675)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44ba3640-d544-4d21-bbc7-c489b69a83e5")
+	)
+	(polyline
+		(pts
+			(xy 102.87 67.31) (xy 57.785 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d382e65-7e45-46f0-b361-2710742a81bf")
+	)
+	(polyline
+		(pts
+			(xy 93.345 108.585) (xy 93.345 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53738734-4d05-4cf5-b93e-a441049de570")
+	)
+	(polyline
+		(pts
+			(xy 99.06 108.585) (xy 93.345 108.585)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fc3a83a-0dca-4e7d-a415-dcde4c8d1c7b")
+	)
+	(polyline
+		(pts
+			(xy 194.31 102.235) (xy 209.55 102.235)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d709b85-d12e-43bf-acb6-10c213f35c00")
+	)
+	(polyline
+		(pts
+			(xy 194.31 131.445) (xy 209.55 131.445)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76d326ec-96b7-41b3-afd9-4c94d1030a41")
+	)
+	(polyline
+		(pts
+			(xy 34.29 81.28) (xy 41.91 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ceca2b8-d3cc-4f03-9890-ed1edfbf5cc3")
+	)
+	(polyline
+		(pts
+			(xy 110.49 55.88) (xy 110.49 78.105)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fef005f-e94a-42cb-8e2f-67e7a7efb2d5")
+	)
+	(polyline
+		(pts
+			(xy 121.285 78.105) (xy 121.285 66.675)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88d3a766-5247-436e-a817-b2331955c7ea")
+	)
+	(polyline
+		(pts
+			(xy 146.05 109.855) (xy 146.05 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dd2a28b-6ce7-47da-8608-c2cc5a8c0f51")
+	)
+	(polyline
+		(pts
+			(xy 57.785 47.625) (xy 57.785 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9597b1f9-a2b1-43f2-83a8-8bff9367b15c")
+	)
+	(polyline
+		(pts
+			(xy 33.655 118.745) (xy 41.91 118.745)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cdf7f1e-55e5-46c9-8b21-191f8dfc79b4")
+	)
+	(polyline
+		(pts
+			(xy 225.425 131.445) (xy 236.22 131.445)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0f6d290-e1fd-4645-82d7-576f2e75ce24")
+	)
+	(polyline
+		(pts
+			(xy 41.91 118.745) (xy 41.91 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b36196b2-6a47-4892-818a-0ee664dfa87c")
+	)
+	(polyline
+		(pts
+			(xy 102.87 78.105) (xy 102.87 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3cbecea-7e04-4006-b98c-76f5eff6bee8")
+	)
+	(polyline
+		(pts
+			(xy 168.91 63.5) (xy 168.91 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c664bd33-5963-4d24-91e6-93154af45c54")
+	)
+	(polyline
+		(pts
+			(xy 225.425 102.235) (xy 236.22 102.235)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfe18f4e-693f-4812-8cab-a8322cb500c8")
+	)
+	(polyline
+		(pts
+			(xy 184.785 63.5) (xy 184.785 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1545fce-5209-4406-bd1a-552437508c72")
+	)
+	(polyline
+		(pts
+			(xy 209.55 130.81) (xy 209.55 131.445)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e469dac1-1390-4fca-8f21-8a35b098fcb2")
+	)
+	(polyline
+		(pts
+			(xy 130.81 101.6) (xy 160.02 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9067449-b77a-4bde-b457-70ff237c7f77")
+	)
+	(text_box "MAIN MCU\nSTM32F407"
+		(exclude_from_sim no)
+		(at 99.06 78.105 0)
+		(size 31.75 39.37)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0d26aacc-60b8-4903-9e9a-eedc9f937bc6")
+	)
+	(text_box "POWER REGULATORS\n(+3V3, +1V8)\nLD1117S33TR\nLD1117S18TR"
+		(exclude_from_sim no)
+		(at 159.385 69.85 0)
+		(size 38.1 15.24)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0f0e87b0-6c28-4e53-a91b-84755c147a49")
+	)
+	(text_box "USB to TTL\nCH340C"
+		(exclude_from_sim no)
+		(at 127 25.4 0)
+		(size 14.605 30.48)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2aef6fd6-cf19-4c40-9407-6c8ae11269eb")
+	)
+	(text_box "H-BRIDGE\nDMHT6016LFJ\n"
+		(exclude_from_sim no)
+		(at 209.55 121.92 0)
+		(size 15.875 18.415)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "39d8e940-8552-45d5-b294-0540eec7b716")
+	)
+	(text_box "ETHERNET PHY\nDP83261RHBR"
+		(exclude_from_sim no)
+		(at 41.91 25.4 0)
+		(size 35.56 22.225)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3b7f0987-ec9a-4bea-a53c-c5f2833b6ec5")
+	)
+	(text_box "POWER INPUT\n+12V"
+		(exclude_from_sim no)
+		(at 159.385 25.4 0)
+		(size 36.195 38.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4bbcafa0-cf53-497f-85c6-0b31072b49f9")
+	)
+	(text_box "MOTOR DRIVER\nDRV8701E"
+		(exclude_from_sim no)
+		(at 160.02 93.98 0)
+		(size 34.401 18.3667)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4efbf2fc-b10b-40ff-a90d-ed18e8dc2936")
+	)
+	(text_box "DEBUGGER\nSTM32F103"
+		(exclude_from_sim no)
+		(at 98.425 25.4 0)
+		(size 25.4 30.48)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "704e7723-c66e-4765-8e1e-2367c1ad8d8f")
+	)
+	(text_box "DAC & MIC"
+		(exclude_from_sim no)
+		(at 41.91 107.315 0)
+		(size 35.56 31.8055)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "79854ee4-9c78-492a-a221-a8fc360c465f")
+	)
+	(text_box "MOTOR DRIVER\nDRV8701E"
+		(exclude_from_sim no)
+		(at 160.02 121.92 0)
+		(size 34.401 18.3667)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7cb007ca-e354-4a63-a598-5d24174f1612")
+	)
+	(text_box "H-BRIDGE\nDMHT6016LFJ\n"
+		(exclude_from_sim no)
+		(at 209.55 93.98 0)
+		(size 15.875 18.415)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "99da6446-fcdf-48df-827e-88ee15e1fd91")
+	)
+	(text_box "ADC\nADS122C04IPW"
+		(exclude_from_sim no)
+		(at 41.91 76.835 0)
+		(size 20.955 21.59)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cbc42497-4784-41d9-b7c1-afede801c698")
+	)
+	(text "I2C"
+		(exclude_from_sim no)
+		(at 78.232 84.328 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1002a2e9-47e4-47fb-b6c9-0ab421e657fa")
+	)
+	(text "MII\n"
+		(exclude_from_sim no)
+		(at 74.676 66.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "306acdf1-236d-457f-bdaa-b57ab607c04a")
+	)
+	(text "HEADPHONE\n"
+		(exclude_from_sim no)
+		(at 32.258 117.094 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "32c41556-276f-43f9-ab10-5ed1d17a8dcd")
+	)
+	(text "3xGPIO\n1xPWM\n1xANALOG"
+		(exclude_from_sim no)
+		(at 141.478 122.174 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3cbbf6f5-53a7-4150-ba74-a01b36bdbc4a")
+	)
+	(text "UART\n"
+		(exclude_from_sim no)
+		(at 128.016 65.532 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4b080de3-3416-4290-b04f-fd2a7ba2eaf7")
+	)
+	(text "SPEAKER\n\n"
+		(exclude_from_sim no)
+		(at 32.004 129.286 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "57930348-1185-4a70-9962-7ee4bdb38a2c")
+	)
+	(text "AIN0\n\n\nAIN1\n"
+		(exclude_from_sim no)
+		(at 31.75 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "58dfb27b-7e8e-4211-8c9e-fdb99d0091d4")
+	)
+	(text "3xGPIO\n1xPWM\n1xANALOG"
+		(exclude_from_sim no)
+		(at 146.05 98.298 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "97edd0be-0b9f-47a1-bc30-b9b1560ce08d")
+	)
+	(text "1xI2S	(DAC)\n2xGPIO (MIC)"
+		(exclude_from_sim no)
+		(at 89.408 127.762 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c130c984-c448-429c-aac7-a09e467e3c26")
+	)
+	(text "JTAG/SWD"
+		(exclude_from_sim no)
+		(at 105.156 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d272bce2-963a-4d17-950d-1b1b66540bb3")
+	)
+	(text "DC MOTOR"
+		(exclude_from_sim no)
+		(at 237.236 130.048 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d5c0355e-11cd-40d9-a4fe-d34cf722d071")
+	)
+	(text "DC MOTOR"
+		(exclude_from_sim no)
+		(at 237.49 101.092 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f24c49b6-5b57-4395-97ea-13fb39a359ed")
+	)
+	(text "BLOCK DIAGRAM & INTERFACES"
+		(exclude_from_sim no)
+		(at 121.412 18.288 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "f75432d8-6f70-42d3-9a67-948435cda834")
+	)
+)
