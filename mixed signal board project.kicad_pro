@@ -496,7 +496,7 @@
         "microvia_drill": 0.1,
         "name": "Critical",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(255, 255, 0)",
+        "schematic_color": "rgb(194, 194, 0)",
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -557,15 +557,42 @@
     "meta": {
       "version": 3
     },
-    "net_colors": {
-      "+3.3VA": "rgb(71, 226, 255)",
-      "+3V3": "rgb(255, 143, 23)",
-      "GND": "rgb(0, 255, 0)"
-    },
+    "net_colors": null,
     "netclass_assignments": {
       "/ADC/AIN0_ADC": "Critical",
       "/ADC/AIN1_ADC": "Critical",
       "/ADC/RESET_ADC": "Critical",
+      "/Block_Schematics/ADC/AIN0": "Critical",
+      "/Block_Schematics/ADC/AIN0_ADC": "Critical",
+      "/Block_Schematics/ADC/AIN1": "Critical",
+      "/Block_Schematics/ADC/AIN1_ADC": "Critical",
+      "/Block_Schematics/ADC/RESET_ADC": "Critical",
+      "/Block_Schematics/DAC adn MIC/HP{slash}A": "Critical",
+      "/Block_Schematics/DAC adn MIC/HP{slash}B": "Critical",
+      "/Block_Schematics/DAC adn MIC/SPKR_OUTA_N": "Critical",
+      "/Block_Schematics/DAC adn MIC/SPKR_OUTA_P": "Critical",
+      "/Block_Schematics/DAC adn MIC/SPKR_OUTB_N": "Critical",
+      "/Block_Schematics/DAC adn MIC/SPKR_OUTB_P": "Critical",
+      "/Block_Schematics/DAC adn MIC/~{RESET}_DAC": "Critical",
+      "/Block_Schematics/Debugger/NRST": "Critical",
+      "/Block_Schematics/Ethernet/RESET_PHY": "Critical",
+      "/Block_Schematics/Motor_Driver1/SNSOUT": "Critical",
+      "/Block_Schematics/Motor_Driver1/SO": "Critical",
+      "/Block_Schematics/Motor_Driver1/nFAULT": "Critical",
+      "/Block_Schematics/Motor_Driver2/SNSOUT_2": "Critical",
+      "/Block_Schematics/Motor_Driver2/SO_2": "Critical",
+      "/Block_Schematics/Motor_Driver2/nFAULT_2": "Critical",
+      "/Block_Schematics/STM32F407/CH340_~{RST}": "Critical",
+      "/Block_Schematics/STM32F407/NTRST_F407": "Critical",
+      "/Block_Schematics/STM32F407/RESET_ADC": "Critical",
+      "/Block_Schematics/STM32F407/RESET_PHY": "Critical",
+      "/Block_Schematics/STM32F407/SNSOUT": "Critical",
+      "/Block_Schematics/STM32F407/SNSOUT_2": "Critical",
+      "/Block_Schematics/STM32F407/SO": "Critical",
+      "/Block_Schematics/STM32F407/SO_2": "Critical",
+      "/Block_Schematics/STM32F407/nFAULT": "Critical",
+      "/Block_Schematics/STM32F407/nFAULT_2": "Critical",
+      "/Block_Schematics/STM32F407/~{RESET}_DAC": "Critical",
       "/DAC adn MIC/SPKR_OUTA_N": "Critical",
       "/DAC adn MIC/SPKR_OUTA_P": "Critical",
       "/DAC adn MIC/SPKR_OUTB_N": "Critical",
@@ -581,10 +608,15 @@
       "/Motor_Driver2/nFAULT_2": "Critical",
       "/STM32F407/CH340_~{RST}": "Critical",
       "/STM32F407/NTRST_F407": "Critical",
+      "Net-(C304-Pad1)": "Critical",
+      "Net-(C413-Pad1)": "Critical",
+      "Net-(C414-Pad1)": "Critical",
+      "Net-(R101-Pad1)": "Critical",
       "Net-(U301-AIN0)": "Critical",
       "Net-(U301-AIN1)": "Critical",
       "Net-(U401-HP{slash}LINE_OUTA)": "Critical",
-      "Net-(U401-HP{slash}LINE_OUTB)": "Critical"
+      "Net-(U401-HP{slash}LINE_OUTB)": "Critical",
+      "unconnected-(U301-AIN1-Pad10)": "Critical"
     },
     "netclass_patterns": [
       {
@@ -704,7 +736,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 400,
+    "annotate_start_num": 500,
     "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -808,40 +840,52 @@
       "Root"
     ],
     [
-      "7fe7525c-d2ca-4f64-88ca-6c645d03b0a9",
+      "1a93f243-2be1-457d-ab7e-1f1d27fcb6d4",
       "Ethernet"
     ],
     [
-      "bd384025-0a01-4df1-9a37-e29b49d5bb6d",
+      "5c8cbe6e-2ff4-4e9b-ae47-5e17ed856fd6",
       "Debugger"
     ],
     [
-      "fd70bbc0-4293-4cb1-946c-bcfbb1973be8",
-      "Motor_Driver2"
-    ],
-    [
-      "eec587cf-a1a3-41c9-8f50-400433a25eba",
+      "d2a5135f-16df-4fe7-a559-471865b835b0",
       "USB_to_TTL"
     ],
     [
-      "55e0262f-b553-4a63-a1b4-cbd06934051f",
+      "e50ae24b-a721-4cde-9fe2-66dd85632202",
       "ADC"
     ],
     [
-      "087b0ea2-dd54-459d-a3b3-b58577c2dfaa",
+      "aa31fe39-d14d-44d9-b0c6-be95bd5d2806",
       "DAC adn MIC"
     ],
     [
-      "21ef25a5-e15f-46a1-a7fa-e9492d8812c6",
-      "STM32F407"
-    ],
-    [
-      "e71aabe1-ea26-4cd5-b208-bfd96f8b8470",
+      "5de36e67-bf7a-4805-b5c6-c2c14260fe97",
       "Motor_Driver1"
     ],
     [
-      "89ed5f6c-6a59-4754-9fdb-29c83f804302",
+      "c5807813-34a6-475a-b066-a11b791c9368",
+      "Motor_Driver2"
+    ],
+    [
+      "e3642fcb-7bba-401d-bf87-536c3b4a20ad",
+      "STM32F407"
+    ],
+    [
+      "307a2624-7cbe-4530-89a8-92c1106b2ae3",
       "Power Input and Regulators"
+    ],
+    [
+      "cd1a830b-ddbe-4555-af1a-9b314bba3975",
+      "Block_Schematics"
+    ],
+    [
+      "1ecda63a-1889-4abb-8dca-9791496c852d",
+      "Block_Diagram"
+    ],
+    [
+      "e1ab9029-5cdc-4114-adc9-e860ab00437b",
+      "Power_Budget"
     ]
   ],
   "text_variables": {}
