@@ -781,40 +781,52 @@
       "Root"
     ],
     [
-      "7fe7525c-d2ca-4f64-88ca-6c645d03b0a9",
-      "Ethernet"
-    ],
-    [
-      "bd384025-0a01-4df1-9a37-e29b49d5bb6d",
-      "Debugger"
-    ],
-    [
-      "fd70bbc0-4293-4cb1-946c-bcfbb1973be8",
-      "Motor_Driver2"
-    ],
-    [
-      "eec587cf-a1a3-41c9-8f50-400433a25eba",
-      "USB_to_TTL"
-    ],
-    [
-      "55e0262f-b553-4a63-a1b4-cbd06934051f",
+      "44037c1f-b42e-4691-bcbb-aee9d294d80d",
       "ADC"
     ],
     [
-      "087b0ea2-dd54-459d-a3b3-b58577c2dfaa",
+      "91022ca8-81c6-4030-8224-07e869881ba8",
       "DAC adn MIC"
     ],
     [
-      "21ef25a5-e15f-46a1-a7fa-e9492d8812c6",
-      "STM32F407"
+      "be618396-e5d0-4bb3-8037-9730eb17d603",
+      "Debugger"
     ],
     [
-      "e71aabe1-ea26-4cd5-b208-bfd96f8b8470",
+      "ca07c855-b0e8-45f7-93b4-9eb1b1895003",
+      "Ethernet"
+    ],
+    [
+      "bad6bdf3-659b-45de-83c8-d9b035a3a434",
       "Motor_Driver1"
     ],
     [
-      "89ed5f6c-6a59-4754-9fdb-29c83f804302",
+      "8c55d098-c7e8-4415-b784-a7baecf7cfbf",
+      "Motor_Driver2"
+    ],
+    [
+      "f9d52025-022a-4415-b4dc-652a40c8a5fe",
       "Power Input and Regulators"
+    ],
+    [
+      "d4a67456-d31f-4156-a091-b4aa0749b9d2",
+      "STM32F407"
+    ],
+    [
+      "95928e7c-f6d0-4a41-860c-c50b4c0b320e",
+      "USB_to_TTL"
+    ],
+    [
+      "00859c04-2135-4e2f-827b-32ca1cdd4b39",
+      "Block_schematics"
+    ],
+    [
+      "004dc0e0-d9a3-4dcc-8498-32e9382aad98",
+      "Power_Budget"
+    ],
+    [
+      "f7f21bc5-afe6-4d65-b46c-35a616ba98e6",
+      "Block_diagram"
     ]
   ],
   "text_variables": {}
