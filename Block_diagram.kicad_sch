@@ -1,0 +1,599 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "53fe7ccc-a30b-4178-93fe-bc3a77f1e6ed")
+	(paper "A4")
+	(title_block
+		(title "Mixed Signal Board Project")
+		(date "2024-06-24")
+		(rev "V1.0")
+		(company "open source")
+		(comment 1 "this project for learning purposes")
+	)
+	(lib_symbols)
+	(polyline
+		(pts
+			(xy 178.562 159.512) (xy 189.23 159.512)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05ead6b5-2d97-4524-9642-13baecea5439")
+	)
+	(polyline
+		(pts
+			(xy 104.14 119.126) (xy 110.998 119.126)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "135cff13-5de8-4c6b-ae8e-7b070829d18b")
+	)
+	(polyline
+		(pts
+			(xy 178.308 146.812) (xy 189.23 146.812)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ed1c6e5-458a-4f7b-8aad-c34d988c5a8b")
+	)
+	(polyline
+		(pts
+			(xy 134.366 130.81) (xy 134.366 155.702)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "222ff376-4119-4ff8-8844-31ad5b271367")
+	)
+	(polyline
+		(pts
+			(xy 61.468 21.59) (xy 61.468 30.734)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e8a8249-6f2c-4307-af3d-b51419b7aa08")
+	)
+	(polyline
+		(pts
+			(xy 153.67 78.232) (xy 168.91 78.232)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f456760-cd57-4cbc-b6ba-55d6a35694bb")
+	)
+	(polyline
+		(pts
+			(xy 104.14 151.892) (xy 104.14 119.126)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fdf3ef6-6308-41f7-9b99-c251bf1bd94b")
+	)
+	(polyline
+		(pts
+			(xy 153.67 90.17) (xy 153.67 90.424)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62f5968f-c235-47ba-8dac-04cc23e068b5")
+	)
+	(polyline
+		(pts
+			(xy 74.676 151.892) (xy 104.14 151.892)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "673c2402-10d3-4b4b-844f-9c4fb7dffc53")
+	)
+	(polyline
+		(pts
+			(xy 110.998 85.852) (xy 110.998 86.614)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a41b161-e137-45a2-93c9-1c0896fd6ebb")
+	)
+	(polyline
+		(pts
+			(xy 188.722 90.424) (xy 153.67 90.424)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c8548da-e5ac-464d-b6a9-b0621867f4be")
+	)
+	(polyline
+		(pts
+			(xy 60.96 69.596) (xy 122.682 69.596)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74258c8f-e65e-41d7-a786-639ed29f836b")
+	)
+	(polyline
+		(pts
+			(xy 36.322 79.756) (xy 27.686 79.756)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "899b3a34-3a25-4bb1-997f-8c9424445305")
+	)
+	(polyline
+		(pts
+			(xy 36.322 136.906) (xy 36.322 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9140ae41-be44-428f-8065-3e3f7c910852")
+	)
+	(polyline
+		(pts
+			(xy 25.4 137.16) (xy 36.322 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d33b486-0ec6-4087-a03a-995461450de6")
+	)
+	(polyline
+		(pts
+			(xy 122.682 69.596) (xy 122.682 76.454)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a19ac2b6-6fef-4aef-ae85-262a6e6bec1a")
+	)
+	(polyline
+		(pts
+			(xy 74.676 86.614) (xy 110.998 86.614)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bec2af72-9f32-4046-9521-51c10566d224")
+	)
+	(polyline
+		(pts
+			(xy 25.4 168.91) (xy 36.322 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c56bc0dd-c024-4063-9418-87ce5d2cd762")
+	)
+	(polyline
+		(pts
+			(xy 134.62 49.784) (xy 134.62 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce3464ca-b963-4854-8dda-1d3f92bc7da0")
+	)
+	(polyline
+		(pts
+			(xy 168.91 61.214) (xy 168.91 78.232)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d139b377-04b5-445b-a82d-724b86e9fa02")
+	)
+	(polyline
+		(pts
+			(xy 28.448 91.44) (xy 36.322 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5014d05-0b32-4279-9fe4-43db9e43c035")
+	)
+	(polyline
+		(pts
+			(xy 206.502 123.19) (xy 206.502 138.938)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1efb654-095d-4f7a-8955-90d49c06dd3b")
+	)
+	(polyline
+		(pts
+			(xy 134.62 73.66) (xy 134.874 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e272ad9e-f7da-4bac-8def-19119a1eb750")
+	)
+	(polyline
+		(pts
+			(xy 27.686 79.756) (xy 27.686 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8db1236-b7f2-423b-aa2f-4fd22e0785f8")
+	)
+	(polyline
+		(pts
+			(xy 61.468 59.436) (xy 61.468 69.596)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8f14080-543a-48ac-8d00-abc5890315a2")
+	)
+	(text_box "ETHERNET PHY \nDP838261RHBR"
+		(exclude_from_sim no)
+		(at 21.336 30.988 0)
+		(size 54.1881 28.7711)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "3bdefb7f-32cc-41ba-9db5-d3dde1a324aa")
+	)
+	(text_box "MCU\nSTM32F407"
+		(exclude_from_sim no)
+		(at 110.8156 73.8964 0)
+		(size 42.7064 56.923)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "4f38d6c4-9813-4aa5-948c-7d73bf49b863")
+	)
+	(text_box "USB to TTL\nCH340C"
+		(exclude_from_sim no)
+		(at 158.496 21.082 0)
+		(size 25.4 40.386)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "6b055d66-ac3a-4461-bab5-76d5076dd207")
+	)
+	(text_box "POWER \nREGULATORS\nLD111733TR\nLD111718TR"
+		(exclude_from_sim no)
+		(at 189.23 138.684 0)
+		(size 37.654 26.2293)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "7d7c620d-9964-4656-b5fe-657f04ff3601")
+	)
+	(text_box "MIC\nIMP34DT05"
+		(exclude_from_sim no)
+		(at 116.84 155.448 0)
+		(size 37.654 26.2293)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "95f19a4c-d033-4f2f-8dd8-b6fa8ebc1bf7")
+	)
+	(text_box "MOTOR DRIVER-1\nDRV8701E\n\nMOTOR DRIVER-2\nDRV8701E\n"
+		(exclude_from_sim no)
+		(at 188.976 20.828 0)
+		(size 52.6641 102.5204)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "ac389bc5-b82f-430d-99d2-af40c7802e17")
+	)
+	(text_box "ADC\nADS122C04IPW"
+		(exclude_from_sim no)
+		(at 36.068 72.644 0)
+		(size 38.4401 28.7711)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "ae451884-0a7b-469f-9077-c80f64656b6d")
+	)
+	(text_box "DAC \nCS43L22-F2"
+		(exclude_from_sim no)
+		(at 36.322 128.778 0)
+		(size 38.354 56.896)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "cca2339c-05cc-43a6-85dc-31443ba2a4d3")
+	)
+	(text_box "DEBUGGER\nSTM32F103\n"
+		(exclude_from_sim no)
+		(at 103.886 21.082 0)
+		(size 54.1881 28.7711)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "cd57652e-937f-455f-8903-8560315225b1")
+	)
+	(text "+3V3\n"
+		(exclude_from_sim no)
+		(at 181.61 143.256 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "0e6f9944-0500-48f9-a84b-839a92877e33")
+	)
+	(text "1xCLK\n1xDATA"
+		(exclude_from_sim no)
+		(at 125.73 149.352 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "0eeb876d-9bad-439e-af07-c1f20ec343c2")
+	)
+	(text "AIN1\n"
+		(exclude_from_sim no)
+		(at 22.606 91.186 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "29a74c51-c482-4ba4-804a-754d4dd98a98")
+	)
+	(text "AIN0"
+		(exclude_from_sim no)
+		(at 22.86 78.232 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "36bf3e29-e686-4b3b-9de3-180ce791560a")
+	)
+	(text "+1V8"
+		(exclude_from_sim no)
+		(at 181.102 156.718 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "42947081-76d5-4141-a196-21f33b3de614")
+	)
+	(text "UART\n"
+		(exclude_from_sim no)
+		(at 161.29 75.946 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "4ac63cd7-6f28-422b-9e04-f1299c31d2ed")
+	)
+	(text "BLOCK DIAGRAM"
+		(exclude_from_sim no)
+		(at 44.45 17.78 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "6d2ab1d2-c0a2-443e-bc75-0ebd779df44e")
+	)
+	(text "+12V\n\n"
+		(exclude_from_sim no)
+		(at 213.106 136.906 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "8fbce088-0e71-4236-abd5-e2ab9d33b54e")
+	)
+	(text "SPEAKER"
+		(exclude_from_sim no)
+		(at 25.654 167.132 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "9bb91b41-fd0b-459f-aba1-dbc96f032a8b")
+	)
+	(text "HEADPHONE"
+		(exclude_from_sim no)
+		(at 26.162 133.35 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "a3bf2755-ef59-409b-8cee-39c87cd4bf43")
+	)
+	(text "3xGPIO\n2xANALOG"
+		(exclude_from_sim no)
+		(at 168.148 97.282 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "b6baff17-a52e-4975-9ccd-c1b5c1fb5309")
+	)
+	(text "MII\n1xGPIO"
+		(exclude_from_sim no)
+		(at 88.392 65.532 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "ba86700c-5f7f-4360-b087-da2e988a6dfa")
+	)
+	(text "I2C\n1xGPIO\n1xDATA\n3xCLK"
+		(exclude_from_sim no)
+		(at 86.36 142.24 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "bf56d4d1-55fe-4a22-88fd-b32775e75328")
+	)
+	(text "JTAG/SWD"
+		(exclude_from_sim no)
+		(at 133.858 55.372 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "ce73612f-15d5-490e-b145-91bef0ec307c")
+	)
+	(text "RJ45"
+		(exclude_from_sim no)
+		(at 55.626 25.908 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "d0a50ac8-a341-4eab-a84b-8ce531739df2")
+	)
+	(text "I2C\n2xGPIO"
+		(exclude_from_sim no)
+		(at 83.82 92.202 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "dd4c2a9b-d801-4ed8-adfd-7c8684c822ff")
+	)
+)
