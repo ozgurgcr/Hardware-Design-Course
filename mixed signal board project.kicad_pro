@@ -667,7 +667,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "PDN/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
